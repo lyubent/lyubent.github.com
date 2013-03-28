@@ -1,0 +1,20 @@
+/* General classes -- override bootstrap elements */
+h1, h2, h3, h4, h5, h6, .page-header { font-family: 'Basic', sans-serif; }
+/* back_pattern image from http://subtlepatterns.com/back-pattern/ */
+body { font-family: 'Junge', serif; background: url(/images/back_pattern.png) top left repeat; }
+.content a { display: inline-block; position: relative; padding: 3px; color: #909900; }
+.content a:hover { text-decoration: none; color: #808800; }
+
+/* Layout-specific classes */
+.page-header { background: #fff; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; padding: 20px; }
+.sidebar-container { background: #fff; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+.sidebar { margin: 10px; font-family: 'Basic', sans-serif; }
+.sidebar .nav-stacked { font-size: 24px; line-height: 26px; }
+.sidebar h3 { margin-left: 10px; }
+.content { background: #fff; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;  }
+.post { margin: 18px; }
+.post-title { font-size: 36px; line-height: 36px; }
+.post-title a, .page-header a, .sidebar a { color: #F25000; background: none; }
+.post-title a:hover, .page-header a:hover, .sidebar a:hover { color: #E14000; text-decoration: none; background: none;  }
+.byline { font-style: italic; }
+footer { background: white; padding: 2em; }

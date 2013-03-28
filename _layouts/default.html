@@ -1,0 +1,78 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>{% include name %}</title>
+  <meta name="generator" content="Jekyllhub.com" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- <link rel="stylesheet" href="/css/reset.css"> -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="/css/pygments.css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+  <link href='http://fonts.googleapis.com/css?family=Basic|Junge' rel='stylesheet' type='text/css'>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/modernizr-2.0.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>
+        <a href="/">{% include name %}</a><br />
+        <small>{% include description %}</small>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span3 sidebar-container">
+        <div class="sidebar">
+          <h3>Site</h3>
+          <ul class="nav nav-pills nav-stacked">
+            {% include links %}
+          </ul>
+        </div>
+      </div>
+      <div class="span9 content">
+        {% if page.title %}
+          <div class="post">
+            <h2 class="post-title">
+              {% if page.link %}
+                <a href="{{ page.link }}">
+                  {{ page.title }}
+                </a>
+              {% else %}
+                <a href="{{ page.url }}">
+                  {{ page.title }}
+                </a>
+              {% endif %}
+            </h2>
+            <div class="content">
+              {{ content }}
+            </div>
+            <p class="byline">
+              <a href="{{ page.url }}">Posted on {{page.date | date_to_string }}</a>
+              Categories: {{ page.categories | join("\n") }}
+              Tags: {{ page.tags | join("\n") }}
+            </p>
+          </div>
+        {% else %}
+          {{ content }}
+        {% endif %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="span9 offset3">
+        <footer>
+          <a href="https://jekyllhub.com" target="_blank" style="padding: 5px 5px 0px 5px; border: 1px solid black; border-radius: 3px;" ><img src="/img/powered_by_light.png" /></a>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

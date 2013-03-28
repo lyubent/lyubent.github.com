@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% for post in paginator.posts %}
+  <div class="post">
+    <!-- here add you post markup -->
+    <h2 class="post-title">
+      {% if post.link %}
+        <a href="{{ post.link }}">
+          {{ post.title }}
+        </a>
+      {% else %}
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      {% endif %}
+    </h2>
+    <div class="post-content">
+      {{ post.content }}
+    </div>
+    <p class="byline">
+      <a href="{{ post.url }}">Posted on {{post.date | date_to_string }}</a>
+      Categories: {{ post.categories | join("\n") }}
+      Tags: {{ post.tags | join("\n") }}
+    </p>
+  </div>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="row">
+  <div class="span1 prev-container">
+    <ul class="pager">
+      {% if paginator.previous_page %}
+        <li><a href="/page{{paginator.previous_page}}" class="previous">Previous</a></li>
+      {% endif %}
+    </ul>
+  </div>
+  <div class="span1 offset6 next-container">
+    <ul class="pager">
+      {% if paginator.next_page %}
+        <li><a href="/page{{paginator.next_page}}" class="next ">Next</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
