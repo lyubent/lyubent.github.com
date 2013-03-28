@@ -4,7 +4,7 @@ layout: default
 {% for post in paginator.posts %}
   <div class="post">
     <!-- here add you post markup -->
-    <h2 class="post-title">
+    <h2 class="post-title" id="{{post.title}}">
       {% if post.link %}
         <a href="{{ post.link }}">
           {{ post.title }}
