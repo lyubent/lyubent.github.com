@@ -21,7 +21,7 @@
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/main.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".sidebar">
   <div class="container">
     <div class="page-header">
       <h1>
@@ -35,6 +35,7 @@
           <h3>Site</h3>
           <ul class="nav nav-pills nav-stacked">
             {% include links %}
+            <li id="#FirstExample">Post1</li>
           </ul>
         </div>
       </div>
