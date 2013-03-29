@@ -20,7 +20,6 @@ layout: default
     </div>
     <p class="byline">
       <a href="{{ post.url }}">Posted on {{post.date | date_to_string }}</a>
-      Categories: {{ post.categories | join("\n") }}
       Tags: {{ post.tags | join("\n") }}
     </p>
   </div>
