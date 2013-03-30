@@ -41,6 +41,10 @@ To build such an application a number of open-source technologies are going to b
   </tbody>
 </table>
 
-
-
-[![Untitled.jpg](/thumbnails/images/Untitled.jpg)](/images/Untitled.jpg)
+<div style="float: left">
+<img src="/thumbnails/images/Tech-Overview.jpg" alt="Technology Overview">
+</div>
+<p style="padding: 0px 20px;" class="lead pull-left">
+fasdfasfasdfsaf
+</p>
+<div style="clear:both;"></div><br/>
