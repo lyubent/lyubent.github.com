@@ -7,13 +7,13 @@ tags: "cassandra intro"
 ---
 <h2>What?</h2>
 <p class="lead">
-blog for the great data developer comp
+This blog will be an informal documentation of my progress with <a href='http://lyubent.github.com'>CassTor</a>, a project for the next great data developer competition by Datastax.
 </p>
 
 
 <h2>Why?</h2>
 <p class="lead">
-interest in cassandra
+Easy question! I love using Cassandra, everybody uses email and security is always a concern. The system will focus on security and the ability to scale, without having to invest money in hosting that guarantees 99.99% uptime, because even a percentage that high isn't good enough knowing that using Cassandra can yeild better results.
 </p>
 
 
