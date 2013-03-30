@@ -43,6 +43,7 @@ To build such an application a number of open-source technologies are going to b
 
 <br/>
 
+<h2>An overview</h2>
 <div style='float:left;margin-right:20px;'>
 <img src="/thumbnails/images/Tech-Overview.jpg" alt="Technology Overview">
 </div>
