@@ -41,10 +41,15 @@ To build such an application a number of open-source technologies are going to b
   </tbody>
 </table>
 
-<div style="float: left">
+<br/>
+
+<div style='float:left;margin-right:20px;'>
 <img src="/thumbnails/images/Tech-Overview.jpg" alt="Technology Overview">
 </div>
-<p style="padding: 0px 20px;" class="lead pull-left">
-fasdfasfasdfsaf
+
+<p class="lead">
+The client of the email system will be built using Java SWING allowing for a cross-platform application. The client will connect to Cassandra using the <a href="https://github.com/Netflix/astyanax/wiki">Astyanax</a> API using TOR to protect the connection from survailance.
 </p>
-<div style="clear:both;"></div><br/>
+<div style="clear:both"></div>
+
+<br/>
