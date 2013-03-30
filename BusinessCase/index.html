@@ -6,7 +6,30 @@ layout: default
 
     <br/>
 
-    <h2></h2>
-    <p class="lead" style="text-align:justify;">
-    </p>
+    <h2>Executive summary</h2>
+    <p style="text-align:justify;">Email is used by everyone on a daily bases, but current systems’ security focuses on restricting access between individual users without being concerned about how much ISPs can see. Current systems that provide online anonymity rely on proxy-servers and VPNs to tunnel traffic, with the interface of these services being located in an online web-application. This means that users must first access these services through their web-browser meaning their ISPs still monitor their access to “anonymous” email systems.
+    </p><br/>
+    
+    <h2>Current State</h2>
+    <p style="text-align:justify;">Security has become a prime concern for email users whom desire anonymity after UK government announced it’s decision to monitor online traffic <sup>[1] </sup>. Some technologies <sup>[2][3]</sup> aim to provide online anonymity, but these solutions are implemented as web application allowing ISPs to view the traffic generated when accessing the various services through a web browser. There is an existing opportunity to create a system which is independent of third-party web applications and provides the ability to grow without additional investment.
+    </p><br/>
+    
+    <h2>Project Purpose</h2>
+    <p style="text-align:justify;">The aim of CassTor, the secure replacement for email, is to create a distributed system that can scale proportionally with it’s user base without the need of additional investment allowing for secure and anonymous access to a messaging service for each user whom is part of the system. 
+    </p><br/>
+    
+    <h2>Stakeholders & Target audience</h2>
+    <p style="text-align:justify;">The CassTor messaging system will be aimed at users that require a messaging system allowing them to securely transfer information between each-other anonymously. An example use case – Two bankers need to transfer account details to allow them to carry out a financial transaction.
+    </p><br/>
+    
+    <h2>Customer Benefits</h2>
+    <p style="text-align:justify;">Access to a reliable and secure messaging service without the dependency on a third party web application or need of relying on a flawed concept to provide anonymity and security. Confidence and trust in the project through the open-source aspect of the project.
+    </p><br/>
+    
+    <h2>Business Objectives & Outcomes</h2>
+    <ul>
+    <li>CassTor eliminates the dependency on third party email servers and creates a closed circuit messaging system, which restricts external access.</li>
+    <li>CassTor improves security by obfuscating a message before it’s sender has accessed the internet by replacing the need for a web-based application and tunnelling traffic to a TOR server and encrypting the message’s data prior to sending it to the messaging database.</li> 
+    <li>CassTor provides a mechanism for a self-maintained application through Cassandra’s ability to scale horizontally by introducing a new database node with each user that join the system.</li>
+    </ul>
 </div>
