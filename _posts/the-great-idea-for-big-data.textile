@@ -1,0 +1,56 @@
+---
+layout: default
+title: "The great idea for big data"
+date: "2013-03-30"
+categories: ""
+tags: "cassandra tor java open-source"
+---
+
+<br/>
+
+<h2>What's the big idea?</h2>
+<p class="lead" style="text-align:justify;">
+A simple one! Make a cross-platform, secure email system that can grow all by itself.
+</p>
+
+<h2>How can it be done?</h2>
+<p class="lead" style="text-align:justify;">
+To build such an application a number of open-source technologies are going to be combined, each with it's own purpose.
+</p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Technology</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cassandra</td>
+      <td>Provide the ability to scale horizontaly regardless of dataset's size or number of users in the system.</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>Cross-platform, high level language which has access to a wide range of Cassandra APIs.</td>
+    </tr>
+    <tr>
+      <td>TOR</td>
+      <td>Obfuscates source/destination of the data and provides protection against network survailance.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
+
+<h2>An overview</h2>
+<div style='float:left;margin-right:20px;'>
+<img src="/thumbnails/images/Tech-Overview.jpg" alt="Technology Overview">
+</div>
+
+<p class="lead">
+The client of the email system will be built using Java SWING allowing for a cross-platform application. The client will connect to Cassandra using the <a href="https://github.com/Netflix/astyanax/wiki">Astyanax</a> API using TOR to protect the connection from survailance.
+</p>
+<div style="clear:both"></div>
+
+<br/>
