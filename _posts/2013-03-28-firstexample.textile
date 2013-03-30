@@ -1,14 +1,8 @@
 ---
 layout: default
-title: "FirstExample"
-date: "2013-03-28"
-categories: "test"
-tags: "test first lorem"
+title: "Hello <strike>World</strike> People!"
+date: "2013-03-26"
+categories: ""
+tags: "cassandra setup osx win7"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra faucibus turpis, lobortis fringilla quam facilisis a. Etiam dictum adipiscing ultricies. Donec enim nunc, blandit ac malesuada et, ultrices et felis. Nullam interdum blandit purus quis vehicula. Cras eu urna quis augue sodales tincidunt. Integer gravida accumsan erat, tristique auctor eros porta non. Donec tempor urna nec nunc euismod ac adipiscing lorem tempus.
 
-Nunc eu consectetur metus. Proin dolor augue, fringilla eu lacinia eu, placerat eget ante. Sed id nunc turpis, eget ornare purus. Suspendisse sed ipsum nisl. Duis diam odio, rutrum eget fringilla et, lacinia eget lacus. Aliquam euismod, risus ac convallis vehicula, dolor tortor facilisis dolor, non pharetra neque nisl ac orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec at mi at augue pharetra dignissim. Nunc consectetur rhoncus blandit. Aliquam erat volutpat.
-
-In hac habitasse platea dictumst. In molestie neque at velit rutrum at bibendum arcu auctor. Quisque sapien libero, commodo eget tempus sed, cursus nec erat. Etiam sit amet urna ac eros ornare auctor in et diam. Donec gravida quam nec odio accumsan aliquet. Quisque sagittis mi eget metus dictum consectetur. In sagittis ultrices sem vitae posuere. Cras auctor felis sed felis gravida at lobortis mi dictum. Nulla viverra, ligula at suscipit sagittis, orci odio commodo nibh, sed vestibulum justo purus in urna. Vivamus at ligula diam. Curabitur in nulla risus, eu consequat turpis. Sed quis urna felis.
-
-Suspendisse consequat odio sit amet purus condimentum ut mollis augue porta. Etiam vehicula hendrerit consectetur. Vestibulum lacus enim, semper id ultrices eget, porttitor vitae lectus. Suspendisse enim odio, semper nec dignissim id, condimentum nec libero. Ut at purus ac quam aliquet interdum vitae vitae elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris pulvinar elementum lobortis. Ut sodales massa sed diam fermentum ut mollis urna hendrerit. Nullam eget eros tortor, eu scelerisque sem. Suspendisse potenti. Phasellus et arcu in orci facilisis placerat non a augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin eget massa magna, sed consequat risus.
