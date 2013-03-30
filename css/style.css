@@ -1,7 +1,7 @@
 /* General classes -- override bootstrap elements */
 h1, h2, h3, h4, h5, h6, .page-header { font-family: 'Basic', sans-serif; }
 /* back_pattern image from http://subtlepatterns.com/back-pattern/ */
-body { font-family: 'Junge', serif; background: url(/images/back_pattern.png) top left repeat; }
+body { font-family: 'Junge', serif; background: url(/images/back_pattern_gray.png) top left repeat; }
 .content a { display: inline-block; position: relative; padding: 3px; color: #6699FF; }
 .content a:hover { text-decoration: none; color: #6633CC; }
 
