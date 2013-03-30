@@ -5,4 +5,17 @@ date: "2013-03-26"
 categories: ""
 tags: "cassandra setup osx win7"
 ---
+<h2>What?</h2>
+<p>blog for the great data developer comp</p>
 
+
+<h2>Why?</h2>
+<p>interest in cassandra</p>
+
+<h2>Where?</h2>
+<p>I'm not a ninja, so there's a number of places that you can find me and my project:</p>
+<ul>
+<li>The project's  <a href='http://lyubent.github.com/'>homepage</a></li>
+<li><a href='https://github.com/lyubent/CassTor'>Github</a> repository</li>
+<li>My <a href='https://vimeo.com/user17386285'>vimeo channel</a></li>
+</ul>
