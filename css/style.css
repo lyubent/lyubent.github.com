@@ -2,6 +2,7 @@
 h1, h2, h3, h4, h5, h6, .page-header { font-family: 'Basic', sans-serif; }
 /* back_pattern image from http://subtlepatterns.com/back-pattern/ */
 body { font-family: 'Junge', serif; background: url(/images/back_pattern_gray.png) top left repeat; }
+p { font-size: 16px;font-family: 'Basic', sans-serif; }
 .content a { display: inline-block; position: relative; padding: 3px; color: #6699FF; }
 .content a:hover { text-decoration: none; color: #6633CC; }
 
@@ -17,6 +18,5 @@ body { font-family: 'Junge', serif; background: url(/images/back_pattern_gray.pn
 .post-title a, .page-header a, .sidebar a { color: #F25000; background: none; }
 .post-title a:hover, .page-header a:hover, .sidebar a:hover { color: #E14000; text-decoration: none; background: none;  }
 .post-content { font-size: 16px;font-family: 'Basic', sans-serif; }
-p { font-size: 16px;font-family: 'Basic', sans-serif; }
 .byline { font-style: italic; }
 footer { background: white; padding: 2em; }
