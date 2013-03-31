@@ -9,10 +9,10 @@ tags: "cassandra tor java open-source"
 <br/>
 
 <h2>What's the big idea?</h2>
-<p style="font-size:17px;text-align:justify;">A simple one! Make a cross-platform, secure email system that can grow all by itself.</p>
+<p>A simple one! Make a cross-platform, secure email system that can grow all by itself.</p>
 
 <h2>How can it be done?</h2>
-<p style="font-size:17px;text-align:justify;">To build such an application a number of open-source technologies are going to be combined, each with it's own purpose.</p>
+<p>To build such an application a number of open-source technologies are going to be combined, each with it's own purpose.</p>
 
 <table class="table" style="font-size:17px;">
   <thead>
@@ -44,7 +44,7 @@ tags: "cassandra tor java open-source"
 <img src="/thumbnails/images/Tech-Overview.jpg" alt="Technology Overview">
 </div>
 
-<p style="font-size:17px;text-align:justify;">The client of the email system will be built using Java SWING allowing for a cross-platform application. The client will connect to Cassandra using the <a href="https://github.com/Netflix/astyanax/wiki">Astyanax</a> API using TOR to protect the connection from survailance.</p>
+<p>The client of the email system will be built using Java SWING allowing for a cross-platform application. The client will connect to Cassandra using the <a href="https://github.com/Netflix/astyanax/wiki">Astyanax</a> API using TOR to protect the connection from survailance.</p>
 <div style="clear:both"></div>
 
 <br/>
