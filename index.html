@@ -3,19 +3,18 @@ layout: default
 ---
 {% for post in paginator.posts %}
   <div class="post">
-    <div id="{{ post.title }}">
-    <!-- here add you post markup -->
+    <div id="{{ post.url }}">
     <h2 class="post-title">
       {% if post.link %}
         <a href="{{ post.link }}">
           {{ post.title }} 
         </a>
-        <i class="icon-chevron-right icona" onclick="expandPost('{{ post.title }}')"></i>
+        <i class="icon-chevron-right icona" onclick="expandPost('{{ post.url }}')"></i>
       {% else %}
         <a href="{{ post.url }}">
           {{ post.title }}
         </a>
-        <i class="icon-chevron-right icona" onclick="expandPost('{{ post.title }}')"></i>
+        <i class="icon-chevron-right icona" onclick="expandPost('{{ post.url }}')"></i>
       {% endif %}
     </h2>
     <div class="post-content">
