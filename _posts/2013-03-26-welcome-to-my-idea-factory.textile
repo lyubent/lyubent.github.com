@@ -12,17 +12,17 @@ This blog will be an informal documentation of my progress with <a href='http://
 
 
 <h2>Why?</h2>
-<p style="font-size:17px;">
+<p style="font-size:17px;text-align:justify;">
 Easy question! I love using Cassandra, everybody uses email and security is always a concern. The system will focus on security and the ability to scale, without having to invest money in hosting that guarantees 99.99% uptime, because even a percentage that high isn't good enough knowing that using Cassandra can yeild better results.
 </p>
 
 
 <h2>Where?</h2>
-<p style="font-size:17px;">
+<p style="font-size:17px;text-align:justify;">
 I'm not a ninja, so there's a number of places that you can find me and my project:
 </p>
 
-<ul style="font-size:17px;">
+<ul style="font-size:17px;text-align:justify;">
 <li>The project's  <a href='http://lyubent.github.com/'>homepage</a></li>
 <li>Sharing is caring! You can find the project on <a href='https://github.com/lyubent/CassTor'>Github</a>.</li>
 <li>My <a href='https://vimeo.com/user17386285'>vimeo channel</a></li>
