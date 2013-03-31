@@ -24,6 +24,7 @@ layout: default
       Tags: {{ post.tags | join("\n") }}
     </p>
   </div>
+</div>
 {% endfor %}
 
 <!-- Pagination links -->
@@ -41,6 +42,5 @@ layout: default
         <li><a href="/page{{paginator.next_page}}" class="next ">Next</a></li>
       {% endif %}
     </ul>
-  </div>
   </div>
 </div>
