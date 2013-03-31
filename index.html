@@ -2,7 +2,8 @@
 layout: default
 ---
 {% for post in paginator.posts %}
-  <div class="post" id="{{post.title}}">
+  <div class="post">
+    <div id="{{post.title}}">
     <!-- here add you post markup -->
     <h2 class="post-title">
       {% if post.link %}
@@ -40,5 +41,6 @@ layout: default
         <li><a href="/page{{paginator.next_page}}" class="next ">Next</a></li>
       {% endif %}
     </ul>
+  </div>
   </div>
 </div>
