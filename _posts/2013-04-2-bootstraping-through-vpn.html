@@ -16,7 +16,7 @@ The current code structure first checks if a VPN connection is available, then l
 <script src="https://gist.github.com/lyubent/5293431.js"></script>
 <br/>
 
-<p>On a side note, some usability testing was carried out. The aim was to workout which of the three connection types was used most frequently. With the help of ten volunteers, it was established that most liked the VPN connection best as CassTor always managed to bootstrap straight away, while with WIFI and Ethernet connections where were occasionally timeouts:</p>
+<p>On a side note, some usability testing was carried out. The aim was to workout which of the three connection types was used most frequently. With the help of ten volunteers, it was established that most liked the VPN connection best as CassTor always managed to bootstrap straight away, while with WIFI and Ethernet connections there were occasionally timeouts:</p>
 
 <br/>
 <script src="http://www.highcharts.com/js/highcharts.js"></script>
@@ -34,8 +34,8 @@ $(document).ready(function () {
              "sliced":true,
              "data":[
                 ["VPN",7],
-                ["Ethernet",2],
-                ["Wifi", 1]
+                ["Ethernet",3],
+                ["Wifi", 0]
              ],
              "pointWidth":15,
              "color":"#C6D9E7",
