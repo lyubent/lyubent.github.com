@@ -1,0 +1,66 @@
+---
+layout: default
+title: "Bootstraping through VPN"
+date: "2013-04-2"
+categories: ""
+tags: ""
+---
+<br/>
+
+<p>The CassTor application relies on VPN allowing you to bootstrap as if you are part of a LAN network from remote machines. Today a problem was encountered for the mechanism of detecting which <code>IP</code> was to be placed in cassandra's configuration (for the <code>listen_address</code> option).<br/><br/>
+
+The current code structure first checks if a VPN connection is available, then looks for a Ethernet connection and finally if the previous two are unavailable, a WIFI connection is used.
+</p>
+
+<br/>
+<script src="https://gist.github.com/lyubent/5293431.js"></script>
+<br/>
+
+<p>On a side note, some usability testing was carried out. The aim was to workout which of the three connection types was used most frequently. With the help of ten volunteers, it was established that most liked the VPN connection best as CassTor always managed to bootstrap straight away, while with WIFI and Ethernet connections where were occasionally timeouts:</p>
+
+<br/>
+<script src="http://www.highcharts.com/js/highcharts.js"></script>
+<div id="container" style="width: 320px; height: 200px"></div>
+
+<script>
+var chart;
+$(document).ready(function () {
+    chart = new Highcharts.Chart(
+    {
+       "series":[
+          {
+             "name":"Values",
+             "type":"pie",
+             "sliced":true,
+             "data":[
+                ["VPN",7],
+                ["Ethernet",2],
+                ["Wifi", 1]
+             ],
+             "pointWidth":15,
+             "color":"#C6D9E7",
+             "borderColor":"gray",
+             "shadow":true,
+          }
+       ],
+       "title":{
+          "text":" "
+       },
+       "legend":{
+          "style":{
+             "left":"auto",
+             "bottom":"auto",
+             "right":"auto",
+             "top":"auto"
+          }
+       },
+       "chart":{"renderTo":"container"},
+       "credits":{"enabled":false}
+    });
+});
+</script>
+<br/>
+
+<p>The above pretty much concludes that the current approach assumes too much about the network infrastructure that casstor can handle. One possibility is to switch to a Network topology keyspace, but it could be argued that the reliability VPN provides should be part of the prerequisites of the application.</p>
+
+<div style='color:#CC3366;'>Thanks to all of you who helped out!</div>
