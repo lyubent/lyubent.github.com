@@ -21,7 +21,7 @@ The simplest guide out there was Acunu's guide to Cassandra security. The sectio
 <h3>Configuring Cassandra to use SSL</h3>
 The configuration takes place in the cassandra.yaml file located in casandradir/conf/ 
 We are after the following option client_encryption_options (typically located near the bottom of the file) which should be modified to the below snippet:
-<br/>
+<br/><br/>
 <script src="https://gist.github.com/lyubent/5664276.js"></script>
 </p>
 <br/>
@@ -32,7 +32,7 @@ To allow Astyanax to communicate with Cassandra the password and path to the cer
 The file containing the certificate store, based on the above certificate generation example, is "cassandra_external_trust.jks".
 <br/>
 Within the creation of the Astyanax context, in the withConnectionPoolConfiguration method we call setSSLConnectionContext to enable SSL and pass a SSLConnectionContext object as a parameter. The object requires two parameters, the part to the certificate store and the store’s password:
-<br/>
+<br/><br/>
 <script src="https://gist.github.com/lyubent/5664395.js"></script>
 <br/>
 And now our communication channel is protected by encryption via SSL. The below two screen shots of Wireshark will hopefully demonstrate why it's a good idea to protect your communication channel.
