@@ -37,7 +37,3 @@ Within the creation of the Astyanax context, in the withConnectionPoolConfigurat
 <br/>
 And now our communication channel is protected by encryption via SSL. The below two screen shots of Wireshark will hopefully demonstrate why it's a good idea to protect your communication channel.
 </p>
-<h3>Regular Thrift traffic</h3>
-<img width="800" height="600" src="/images/noencryption.png" alt="Unencrypted thrift traffic with human-readable sensitive data">
-<h3>Encrypted Thrift traffic</h3>
-<img width="800" height="600" src="/images/encryption.png" alt="Encrypted thrift traffic with scrambled data that is uncreadable by anyone who doesn't hold the private key.">
