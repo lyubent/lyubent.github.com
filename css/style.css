@@ -1,5 +1,7 @@
 /* General classes -- override bootstrap elements */
 h1, h2, h3, h4, h5, h6, .page-header { font-family: 'Basic', sans-serif; }
+h1 { color: #383838;}
+h2 { color: #484848;}
 /* back_pattern image from http://subtlepatterns.com/back-pattern/ */
 body { font-family: 'Junge', serif; background: url(/images/back_pattern_gray.png) top left repeat; }
 p { font-size: 16px; line-height: 23px; font-family: 'Basic', sans-serif; }
